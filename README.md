@@ -7,11 +7,11 @@ To run this program, you must have the latest versions of DOSBOX and Turbo Debug
 
 Open DosBox and type the following:
 
--mount c: c:\            (if your files are on c disk)
--cd tasm
--tasm /zi base
--tlink /v base.obj
--td base2
+- mount c: c:\            (if your files are on c disk)
+- cd tasm
+- tasm /zi base
+- tlink /v base.obj
+- td base2
 
 This will lead you to the turbo debugger screen. Press view and then CPU.
 This leads you to a simulation of the CPU.
